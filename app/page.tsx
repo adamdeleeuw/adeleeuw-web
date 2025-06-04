@@ -4,7 +4,7 @@ import Navbar from "@/components/navbar"
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white overflow-x-hidden">
       {/* Navigation */}
       <Navbar currentPage="home" />
 
@@ -86,22 +86,18 @@ export default function HomePage() {
       {/* Stats Section */}
       <section className="py-20 bg-sky-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-4 gap-8 text-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             <div className="p-6">
-              <div className="text-4xl font-bold text-sky-600 mb-2">Buisness Focused</div>
-              <div className="text-gray-700 font-medium">From Concept to Code</div>
+              <div className="text-4xl font-bold text-sky-600 mb-2 text-center">Buisness Focused</div>
+              <div className="text-gray-700 font-medium text-center">From Concept to Code</div>
             </div>
             <div className="p-6">
-              <div className="text-4xl font-bold text-sky-600 mb-2">100%</div>
-              <div className="text-gray-700 font-medium">Client Satisfaction Guaranteed</div>
+              <div className="text-4xl font-bold text-sky-600 mb-2 text-center">100%</div>
+              <div className="text-gray-700 font-medium text-center">Client Satisfaction Guaranteed</div>
             </div>
             <div className="p-6">
-              <div className="text-4xl font-bold text-sky-600 mb-2">24/7</div>
-              <div className="text-gray-700 font-medium">Support Available</div>
-            </div>
-            <div className="p-6">
-              <div className="text-4xl font-bold text-sky-600 mb-2">Experienced</div>
-              <div className="text-gray-700 font-medium">Projects + CPEN degree</div>
+              <div className="text-4xl font-bold text-sky-600 mb-2 text-center">24/7</div>
+              <div className="text-gray-700 font-medium text-center">Support Available</div>
             </div>
           </div>
         </div>
