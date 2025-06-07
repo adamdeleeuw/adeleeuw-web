@@ -216,7 +216,7 @@ export default function ServicesPage() {
             <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
               <div className="h-64 overflow-hidden">
                 <Image
-                  src="/images/detail-demo.png"
+                  src="/images/detailIMG.png"
                   alt="Auto Detailing Full Website Demo"
                   width={600}
                   height={400}
