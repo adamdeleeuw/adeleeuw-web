@@ -19,6 +19,13 @@ export default function ServicesPage() {
             Comprehensive web development solutions tailored to your business needs. From concept to launch, I've got
             you covered.
           </p>
+          <a
+            href="#see-my-work"
+            className="inline-block mt-8 bg-sky-600 text-white px-4 py-4 rounded-lg font-semibold hover:bg-sky-700 transition-all duration-300 transform hover:scale-105 flex items-center justify-center group"
+          >
+            See My Work
+            <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+          </a>
         </div>
       </section>
 
@@ -175,7 +182,7 @@ export default function ServicesPage() {
       </section>
 
       {/* Demo Section */}
-      <section className="py-20 bg-sky-50">
+      <section id="see-my-work" className="py-20 bg-sky-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">See My Work</h2>
@@ -183,25 +190,24 @@ export default function ServicesPage() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            {/* Landing Page Demo */}
+            {/* Store website (Coffee Shop) */}
             <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
               <div className="h-64 overflow-hidden">
                 <Image
-                  src="/images/boutique-demo.png"
-                  alt="Boutique Jewelry Landing Page Demo - Full page view showing elegant design with navigation and hero section"
+                  src="/images/coffeDemo.png"
+                  alt="Coffee Shop Demo"
                   width={600}
                   height={400}
                   className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-8">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Landing Page Demo</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Coffee Shop</h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  A luxury boutique jewelry landing page featuring elegant typography, sophisticated imagery, and a
-                  conversion-focused layout with clear call-to-action buttons.
+                  A modern coffee shop website with a clean design, menu, and a contact form.
                 </p>
                 <a
-                  href="https://adamdeleeuw.github.io/demo-boutique-jewelry/"
+                  href="https://demo-coffee-delta.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center text-sky-600 font-semibold hover:text-sky-700 transition-colors group"
@@ -212,25 +218,136 @@ export default function ServicesPage() {
               </div>
             </div>
 
-            {/* Full Website Demo */}
+            {/* Gym landing page */}
             <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
               <div className="h-64 overflow-hidden">
                 <Image
-                  src="/images/detailIMG.png"
-                  alt="Auto Detailing Full Website Demo"
+                  src="/images/gymDemo.png"
+                  alt="Gym/Saas Landing Page Demo"
                   width={600}
                   height={400}
                   className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-8">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Full Website Demo</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Gym Landing Page</h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  A complete auto detailing business website featuring multiple pages, service booking, gallery, and
-                  professional branding with modern design elements.
+                  A high-impact landing page for gyms, featuring bold CTAs and modern visuals.
+                </p>
+                <a
+                  href="https://demo-demo-fit.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center text-sky-600 font-semibold hover:text-sky-700 transition-colors group"
+                >
+                  View Live Demo
+                  <ExternalLink className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                </a>
+              </div>
+            </div>
+
+            {/* Simple Ecom */}
+            <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+              <div className="h-64 overflow-hidden">
+                <Image
+                  src="/images/ecomDemo.png"
+                  alt="Simple Ecom Demo"
+                  width={600}
+                  height={400}
+                  className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="p-8">
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Ecom Demo</h3>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  A simple e-commerce demo with product listings, cart, and checkout flow.
+                </p>
+                <a
+                  href="https://demo-demo-ecom.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center text-sky-600 font-semibold hover:text-sky-700 transition-colors group"
+                >
+                  View Live Demo
+                  <ExternalLink className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                </a>
+              </div>
+            </div>
+
+            {/* Service website (Detail) */}
+            <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+              <div className="h-64 overflow-hidden">
+                <Image
+                  src="/images/detailIMG.png"
+                  alt="Service Website Demo"
+                  width={600}
+                  height={400}
+                  className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="p-8">
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Car Detailing</h3>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  A professional service website for auto detailing, with booking and gallery features.
                 </p>
                 <a
                   href="https://adamdeleeuw.github.io/detailing-demo-site/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center text-sky-600 font-semibold hover:text-sky-700 transition-colors group"
+                >
+                  View Live Demo
+                  <ExternalLink className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                </a>
+              </div>
+            </div>
+
+            {/* Saas landing page (SaaS) */}
+            <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+              <div className="h-64 overflow-hidden">
+                <Image
+                  src="/images/sassDemo.png"
+                  alt="SaaS Landing Page Demo"
+                  width={600}
+                  height={400}
+                  className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="p-8">
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Gym/Saas landing page</h3>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  A SaaS landing page demo with modern design, pricing, and lead capture.
+                </p>
+                <a
+                  href="https://demo-saas-landing.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center text-sky-600 font-semibold hover:text-sky-700 transition-colors group"
+                >
+                  View Live Demo
+                  <ExternalLink className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                </a>
+              </div>
+            </div>
+
+            {/* Boutique landing page */}
+            <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+              <div className="h-64 overflow-hidden">
+                <Image
+                  src="/images/boutique-demo.png"
+                  alt="Boutique Landing Page Demo"
+                  width={600}
+                  height={400}
+                  className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="p-8">
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Boutique Landing Page</h3>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  A boutique landing page demo with elegant design and conversion-focused layout.
+                </p>
+                <a
+                  href="https://adamdeleeuw.github.io/demo-boutique-jewelry/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center text-sky-600 font-semibold hover:text-sky-700 transition-colors group"
