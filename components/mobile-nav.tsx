@@ -39,9 +39,8 @@ export default function MobileNav() {
 
       {/* Mobile menu */}
       <div
-        className={`fixed top-0 right-0 h-full w-80 bg-white shadow-2xl transform transition-transform duration-300 ease-in-out z-50 md:hidden ${
-          isOpen ? "translate-x-0" : "translate-x-full"
-        }`}
+        className={`fixed top-0 right-0 h-full w-80 bg-white shadow-2xl transform transition-transform duration-300 ease-in-out z-50 md:hidden ${isOpen ? "translate-x-0" : "translate-x-full"
+          }`}
       >
         <div className="flex flex-col h-full">
           {/* Header */}
@@ -62,44 +61,40 @@ export default function MobileNav() {
               <Link
                 href="/"
                 onClick={closeMenu}
-                className={`block px-6 py-4 rounded-xl font-semibold text-lg transition-all duration-200 ${
-                  isActive("/")
+                className={`block px-6 py-4 rounded-xl font-semibold text-lg transition-all duration-200 ${isActive("/")
                     ? "bg-sky-600 text-white shadow-lg"
                     : "text-gray-700 hover:bg-sky-50 hover:text-sky-600 hover:shadow-md"
-                }`}
+                  }`}
               >
                 Home
               </Link>
               <Link
                 href="/about"
                 onClick={closeMenu}
-                className={`block px-6 py-4 rounded-xl font-semibold text-lg transition-all duration-200 ${
-                  isActive("/about")
+                className={`block px-6 py-4 rounded-xl font-semibold text-lg transition-all duration-200 ${isActive("/about")
                     ? "bg-sky-600 text-white shadow-lg"
                     : "text-gray-700 hover:bg-sky-50 hover:text-sky-600 hover:shadow-md"
-                }`}
+                  }`}
               >
                 About
               </Link>
               <Link
                 href="/services"
                 onClick={closeMenu}
-                className={`block px-6 py-4 rounded-xl font-semibold text-lg transition-all duration-200 ${
-                  isActive("/services")
+                className={`block px-6 py-4 rounded-xl font-semibold text-lg transition-all duration-200 ${isActive("/services")
                     ? "bg-sky-600 text-white shadow-lg"
                     : "text-gray-700 hover:bg-sky-50 hover:text-sky-600 hover:shadow-md"
-                }`}
+                  }`}
               >
                 Services
               </Link>
               <Link
                 href="/contact"
                 onClick={closeMenu}
-                className={`block px-6 py-4 rounded-xl font-semibold text-lg transition-all duration-200 ${
-                  isActive("/contact")
+                className={`block px-6 py-4 rounded-xl font-semibold text-lg transition-all duration-200 ${isActive("/contact")
                     ? "bg-sky-600 text-white shadow-lg"
                     : "text-gray-700 hover:bg-sky-50 hover:text-sky-600 hover:shadow-md"
-                }`}
+                  }`}
               >
                 Contact
               </Link>
@@ -109,8 +104,8 @@ export default function MobileNav() {
           {/* Footer */}
           <div className="p-6 border-t border-gray-200 bg-gray-50">
             <div className="text-center">
-              <p className="text-sm text-gray-600 mb-2">Adam de Leeuw</p>
-              <p className="text-xs text-gray-500">© 2024 de Leeuw Digital</p>
+              <p className="text-sm text-gray-600 mb-2">de Leeuw Digital</p>
+              <p className="text-xs text-gray-500">© 2024 Adam de Leeuw</p>
             </div>
           </div>
         </div>

@@ -124,8 +124,8 @@ export default function HomePage() {
       <footer className="bg-gray-900 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <div className="text-2xl font-bold text-sky-400 mb-4">Adam de Leeuw</div>
-            <p className="text-gray-400 mb-6">de Leeuw Digital</p>
+            <div className="text-2xl font-bold text-sky-400 mb-4">de Leeuw Digital</div>
+            <p className="text-gray-400 mb-6">Adam de Leeuw</p>
             <div className="flex justify-center space-x-6">
               <Link href="/" className="text-gray-400 hover:text-sky-400 transition-colors">
                 Home
