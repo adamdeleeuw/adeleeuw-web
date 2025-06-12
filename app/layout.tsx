@@ -18,6 +18,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" type="image/png" href="/images/logoDL.png" />
+        {/* Other head tags */}
+      </head>
       <body className="font-sans antialiased">{children}</body>
     </html>
   )
