@@ -190,6 +190,9 @@ export default function AboutPage() {
               <Link href="/contact" className="text-gray-400 hover:text-sky-400 transition-colors">
                 Contact
               </Link>
+              <Link href="/privacy" className="text-gray-400 hover:text-sky-400 transition-colors">
+                Privacy Policy
+              </Link>
             </div>
             <div className="mt-8 pt-8 border-t border-gray-800 text-gray-500">
               <p>&copy; 2024 Adam de Leeuw. All rights reserved.</p>
