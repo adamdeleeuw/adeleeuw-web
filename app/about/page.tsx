@@ -41,7 +41,7 @@ export default function AboutPage() {
                   challenges and create something meaningful.
                 </p>
                 <p>
-                  When I'm not coding, you'll find me diving into the latest developments in AI and ML, experimenting
+                  When I&apos;m not coding, you&apos;ll find me diving into the latest developments in AI and ML, experimenting
                   with new tools, or exploring emerging tech trends to continually expand my expertise and stay ahead of
                   industry shifts.
                 </p>
@@ -156,9 +156,9 @@ export default function AboutPage() {
       {/* CTA Section */}
       <section className="py-20 bg-sky-600">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-white mb-6">Let's Work Together</h2>
+          <h2 className="text-4xl font-bold text-white mb-6">Let&apos;s Work Together</h2>
           <p className="text-xl text-sky-100 mb-8">
-            Ready to bring your web project to life? I'd love to hear about your ideas and discuss how we can make them
+            Ready to bring your web project to life? I&apos;d love to hear about your ideas and discuss how we can make them
             reality.
           </p>
           <Link

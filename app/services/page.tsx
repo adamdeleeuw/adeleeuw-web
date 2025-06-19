@@ -16,7 +16,7 @@ export default function ServicesPage() {
             My <span className="text-sky-600">Services</span>
           </h1>
           <p className="text-xl text-gray-600 leading-relaxed">
-            Comprehensive web development solutions tailored to your business needs. From concept to launch, I've got
+            Comprehensive web development solutions tailored to your business needs. From concept to launch, I&apos;ve got
             you covered.
           </p>
           <a
@@ -113,7 +113,7 @@ export default function ServicesPage() {
               </div>
               <h3 className="text-3xl font-bold text-gray-900 mb-4">SEO & Optimization</h3>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Improve your website's search engine rankings and performance. Get found by your target audience online.
+                Improve your website&apos;s search engine rankings and performance. Get found by your target audience online.
               </p>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center text-gray-700">
@@ -410,7 +410,7 @@ export default function ServicesPage() {
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-white mb-6">Ready to Get Started?</h2>
           <p className="text-xl text-sky-100 mb-8">
-            Let's discuss your project and find the perfect solution for your needs.
+            Let&apos;s discuss your project and find the perfect solution for your needs.
           </p>
           <Link
             href="/contact"

@@ -22,7 +22,7 @@ export default function PrivacyPage() {
                     </h1>
                     <p className="text-gray-500 mb-8 italic">Last updated: 11 June 2025</p>
                     <p className="mb-6 text-base sm:text-lg leading-relaxed">
-                        Thank you for choosing de Leeuw Digital ("DL Digital", "we", "our", or "us"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit deleuuwdigital.com or engage our web‑development and marketing services (collectively, the “Services”).
+                        Thank you for choosing de Leeuw Digital (&quot;DL Digital&quot;, &quot;we&quot;, &quot;our&quot;, or &quot;us&quot;). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit deleuuwdigital.com or engage our web‑development and marketing services (collectively, the &quot;Services&quot;).
                     </p>
                     <p className="mb-8 text-base sm:text-lg leading-relaxed">
                         By accessing or using our Services, you agree to the practices described below. If you do not agree with any part of this Privacy Policy, please discontinue use of the Services.
@@ -156,7 +156,7 @@ export default function PrivacyPage() {
                         <RefreshCw className="text-sky-500 w-6 h-6" />
                         <h2 className="text-2xl font-bold text-sky-700">8. Changes to This Policy</h2>
                     </div>
-                    <p className="mb-8 text-sm sm:text-base">We may update this Privacy Policy periodically. Material changes will be posted on this page with a new "Last updated" date and, where required, we will seek your consent.</p>
+                    <p className="mb-8 text-sm sm:text-base">We may update this Privacy Policy periodically. Material changes will be posted on this page with a new &quot;Last updated&quot; date and, where required, we will seek your consent.</p>
 
                     {/* Section 9 */}
                     <div className="flex items-center gap-2 mb-2 mt-10">

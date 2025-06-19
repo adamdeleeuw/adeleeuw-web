@@ -80,10 +80,10 @@ export default function ContactPage() {
       <section className="pt-32 pb-16 bg-gradient-to-br from-sky-50 to-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-            Let's <span className="text-sky-600">Connect</span>
+            Let&apos;s <span className="text-sky-600">Connect</span>
           </h1>
           <p className="text-xl text-gray-600 leading-relaxed">
-            Ready to start your project? I'd love to hear about your ideas and discuss how we can bring them to life
+            Ready to start your project? I&apos;d love to hear about your ideas and discuss how we can bring them to life
             together.
           </p>
         </div>
@@ -97,8 +97,8 @@ export default function ContactPage() {
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-8">Get In Touch</h2>
               <p className="text-gray-600 mb-8 leading-relaxed">
-                I'm always excited to work on new projects and help businesses grow through exceptional web development.
-                Whether you have a specific project in mind or just want to explore possibilities, let's start a
+                I&apos;m always excited to work on new projects and help businesses grow through exceptional web development.
+                Whether you have a specific project in mind or just want to explore possibilities, let&apos;s start a
                 conversation.
               </p>
 
@@ -138,7 +138,7 @@ export default function ContactPage() {
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Response Time</h3>
                 <p className="text-gray-600">
                   I typically respond to all inquiries within 24 hours. For urgent projects, feel free to mention it in
-                  your message and I'll prioritize your request.
+                  your message and I&apos;ll prioritize your request.
                 </p>
               </div>
             </div>
@@ -152,7 +152,7 @@ export default function ContactPage() {
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">Message Sent!</h3>
                   <p className="text-gray-600 mb-6">
-                    Thank you for reaching out. I'll get back to you within 24 hours.
+                    Thank you for reaching out. I&apos;ll get back to you within 24 hours.
                   </p>
                   <button
                     onClick={() => setIsSubmitted(false)}
@@ -282,7 +282,7 @@ export default function ContactPage() {
               <h3 className="text-xl font-bold text-gray-900 mb-3">How long does a typical project take?</h3>
               <p className="text-gray-600">
                 Project timelines vary based on complexity. Landing pages typically take 3-6 days, while full websites
-                can take 1-1.5 weeks. I'll provide a detailed timeline during our initial consultation.
+                can take 1-1.5 weeks. I&apos;ll provide a detailed timeline during our initial consultation.
               </p>
             </div>
 
@@ -295,7 +295,7 @@ export default function ContactPage() {
             </div>
 
             <div className="bg-white p-6 rounded-xl shadow-sm">
-              <h3 className="text-xl font-bold text-gray-900 mb-3">What's included in your pricing?</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">What&apos;s included in your pricing?</h3>
               <p className="text-gray-600">
                 All projects include responsive design, basic SEO optimization, performance optimization, and 30 days of
                 post-launch support. Additional features and ongoing maintenance are available separately.
@@ -305,7 +305,7 @@ export default function ContactPage() {
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <h3 className="text-xl font-bold text-gray-900 mb-3">Do you work with clients internationally?</h3>
               <p className="text-gray-600">
-                I work with clients worldwide and am comfortable with remote collaboration. I'm flexible with time zones
+                I work with clients worldwide and am comfortable with remote collaboration. I&apos;m flexible with time zones
                 and use modern communication tools to ensure smooth project delivery.
               </p>
             </div>
